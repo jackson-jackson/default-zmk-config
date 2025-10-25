@@ -4,10 +4,13 @@
         "BSLH",
         "BSPC",
         "BTCLR",
+        "CTLR",
         "DLLR",
         "dtsi",
         "FSLH",
         "keymap",
+        "KSCAN",
+        "LALT",
         "LBKT",
         "LBRC",
         "LCTRL",
@@ -17,6 +20,9 @@
         "RALT",
         "RBKT",
         "RBRC",
+        "RCTRL",
+        "RGUI",
+        "RSHFT",
         "SHFT"
     ]
 }
