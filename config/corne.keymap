@@ -86,13 +86,13 @@
 
         combo_screenshot_area {
             timeout-ms = <40>;
-            key-positions = <6 18>;
+            key-positions = <5 6>;
             bindings = <&screenshot_area>;
         };
 
         combo_screenshot_tool {
             timeout-ms = <40>;
-            key-positions = <18 30>;
+            key-positions = <5 7>;
             bindings = <&screenshot_tool>;
         };
     };
@@ -113,7 +113,7 @@
 &kp TAB    &kp Q        &kp W        &kp E         &kp R         &kp T     &kp Y   &kp U         &kp I         &kp O        &kp P           &kp BSPC
 &kp ESC    &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F  &kp G     &kp H   &hmr RCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr RGUI SEMI  &kp SQT
 &kp LSHFT  &kp Z        &kp X        &kp C         &kp V         &kp B     &kp N   &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp DEL
-                                     &trans        &kp ENTER     &mo 2     &mo 1   &kp SPACE     &kp RET
+                                     &trans        &kp ENTER     &mo 1     &mo 2   &kp SPACE     &kp RET
             >;
         };
 
