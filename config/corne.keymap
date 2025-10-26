@@ -55,6 +55,20 @@
         };
     };
 
+    macros {
+        screenshot_area: screenshot_area {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(N4))>;
+        };
+
+        screenshot_tool: screenshot_tool {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(N5))>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -68,6 +82,18 @@
             timeout-ms = <40>;
             key-positions = <2 3>;
             bindings = <&kp TAB>;
+        };
+
+        combo_screenshot_area {
+            timeout-ms = <40>;
+            key-positions = <6 7>;
+            bindings = <&screenshot_area>;
+        };
+
+        combo_screenshot_tool {
+            timeout-ms = <40>;
+            key-positions = <30 31>;
+            bindings = <&screenshot_tool>;
         };
     };
 
